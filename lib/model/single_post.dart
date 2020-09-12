@@ -11,7 +11,7 @@ class SinglePost {
     this.url,
   });
 
-  factory SinglePost.fromJson(Map json) {
+  factory SinglePost.fromJson(Map<String, dynamic> json) {
     return SinglePost(
       authorName: json['author']['name'],
       avatarURL: json['author']['avatar_URL'],
